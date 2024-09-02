@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #eee;
+    background-color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #111;
+    padding: 1rem 0;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    padding: 0.5rem 0;
+}
+
+nav ul li a:hover {
+    color: #f39c12;
+}
+
+section {
+    padding: 2rem;
+    border-bottom: 1px solid #444;
+    background: #222;
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-family: 'Rock Salt', cursive;
+    color: #f39c12;
+    text-align: center;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.about-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: 4px solid #f39c12;
+}
+
+.about-text {
+    max-width: 600px;
+}
+
+.contact-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+    padding: 1rem 1.5rem;
+    transition: background-color 0.3s, transform 0.3s;
+    color: #fff;
+    font-family: 'Rock Salt', cursive;
+    background: #000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.contact-link i {
+    font-size: 2.5rem;
+    margin-right: 1rem;
+}
+
+.contact-link span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.whatsapp {
+    background-color: #25D366;
+}
+
+.whatsapp:hover {
+    background-color: #128C7E;
+    transform: scale(1.1);
+}
+
+.instagram {
+    background-color: #E4405F;
+}
+
+.instagram:hover {
+    background-color: #C13584;
+    transform: scale(1.1);
+}
+
+footer {
+    background: #111;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
